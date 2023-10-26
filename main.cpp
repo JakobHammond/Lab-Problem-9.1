@@ -38,4 +38,12 @@ int main(void){
             if(i < 9) cout << ", ";
         }
     }
+    cout << endl;
+    
+    //elements in reverse order
+    cout << "Reversed order: ";
+    for(int i = 9; i >= 0; i--){
+        cout << fourDigit[i];
+        if(i > 0) cout << ", ";
+    }
 }
