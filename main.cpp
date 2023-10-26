@@ -29,4 +29,13 @@ int main(void){
         if(i < 8) cout << ", ";
     }
     cout << endl;
+    
+    //prints every even value
+    cout << "Even values: ";
+    for(int i = 0; i < 10; i++){
+        if(fourDigit[i] % 2 == 0){
+            cout << fourDigit[i];
+            if(i < 9) cout << ", ";
+        }
+    }
 }
