@@ -21,4 +21,12 @@ int main(void){
         if(i < 9) cout << ", ";
     }
     cout << endl;
+    
+    //prints every even element
+    cout << "Even indices: ";
+    for(int i = 0; i < 10; i = i + 2){
+        cout << fourDigit[i];
+        if(i < 8) cout << ", ";
+    }
+    cout << endl;
 }
